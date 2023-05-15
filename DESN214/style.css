@@ -1,0 +1,221 @@
+@import url("https://use.typekit.net/uof1adc.css");
+
+.nav {
+      list-style: none;
+      display: flex;
+      font-style: bold;
+      justify-content: space-evenly;
+    }
+
+    .nav li {
+      padding: 0px 5px;
+    }
+
+    .text-right {
+      text-align: right;
+      padding: 25px;
+    }
+
+
+    .header2 {
+      border: 2px solid black;
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 5%;
+      font-family: "Apolline";
+      font-style: bold;
+      font-size: 25px;
+      text-decoration: none;
+    }
+
+    .footer {
+      border: 2px solid black;
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 5%;
+      font-family: "Apolline";
+      font-style: bold;
+      text-decoration: none;
+    }
+
+    .logo {
+      float: left;
+      width: 20%;
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 30%;
+      }
+
+nav ul{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+nav ul li{
+  margin: 0 5px;
+} 
+nav ul li a{
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  letter-spacing: 1px;
+}
+
+nav .menu-btn i{
+  color: #000;
+  font-size: 22px;
+  display: none;
+} 
+
+@media (max-width: 920px) {
+  nav ul li a{
+    color: #fff;
+  }
+  nav .menu-btn i{
+    display: block;
+  }
+  
+  nav ul{
+    position: fixed;
+    top: 80px;
+    left: -100%;
+    background: #111;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  
+  nav ul li{
+    width: 100%;
+    margin: 40px 0;
+  }
+  nav ul li a{
+    width: 100%;
+    margin-left: -100%;
+    display: block;
+    font-size: 20px;
+  }
+  
+ 
+} 
+
+.banner.content {
+  margin-top: 130px;
+  
+}
+.banner-bg img{
+  width: 100%;
+  border: 2px solid #000;
+}
+
+.banner-bg {
+  position: relative;
+}
+.text-box {
+  position: absolute;
+  bottom: 3%;
+  background-color: #e5e0dd;
+  width: 30%;
+  padding: 30px;
+  left: 2%;
+  font-family: "Apolline";
+  font-style: extrabold;
+}
+.text-box a {
+  background-color: #000;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  font-family: "Apolline";
+  font-style: bold;
+}
+.text-box h4 {
+  margin-bottom: 30px;
+}
+
+.main-bg img {
+  width: 100%;
+  height: 100%;
+  border: 2px solid #000;
+  margin-bottom: 20px;
+}
+.main-bg {
+  background-color: #d8d8d8;
+  padding: 30px;
+}
+.main-bg-left-area, .main-bg-right-area {
+  position: relative;
+  height: 100%;
+}
+.main-bg-left-area::after, .main-bg-right-area::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: '';
+  background-color: #00000087;
+}
+.main-bg-left-area .title {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: #fff;
+  z-index: 1;
+  font-size: 20px;
+} 
+.main-bg-right-area .title {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  color: #fff;
+  z-index: 1;
+  font-size: 20px;
+}
+.details-content {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+.right-content p {
+  padding: 0;
+  margin: 0;
+}
+.right-content {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.right-content a {
+  text-decoration: none;
+}
+
+.footer-left-area img {
+  width: 100%;
+  height: auto;
+}
+.footer-right-area {
+  text-align: right;
+  padding: 23px
+}
+.footer-right-area li {
+  list-style: none;
+  display: inline-flex;
+  padding: 20px;
+}
+.footer-right-area li a {
+  text-decoration: none;
+  color: black;
+  font-style: bold;
+  font-size: 20px;
+}
+
+
+

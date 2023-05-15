@@ -1,0 +1,68 @@
+<html> 
+<head>
+  <title>Block Homework</title>
+  <meta charset="utf-8">
+
+<style>
+  body {
+    margin: 0;
+  }
+
+  .container {
+    width: 100vw;
+    height: 100vw;
+
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.20fr 0.30fr 0.05px 1fr 1fr 0.20fr;
+  }
+
+  .header {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color:#dce0e9;
+  }
+
+  .header2 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color:#798292;
+  }
+
+.left-box {
+  grid-row-start: 3;
+  grid-row-end: span 2 ;
+  background-color:#385795;
+}
+
+.right-box {
+  grid-row-start: 3;
+  grid-row-end: span 2;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  background-color: #4d586e;
+}
+
+.footer {
+  grid-row-start: 5;
+  grid-column-start:1 ;
+  grid-column-end: span 3;
+  background-color: #510811;
+}
+</style>
+
+  </head>
+
+  <body>
+    <div class="container text-center">
+      <div class="header"></div>
+      <div class="header2"></div>
+      <div class="left-box"></div>
+      <div class="right-box"></div>
+      <div class="footer"></div>
+
+
+
+  </body>
+
+</html>
