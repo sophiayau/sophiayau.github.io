@@ -5,6 +5,7 @@
       display: flex;
       font-style: bold;
       justify-content: space-evenly;
+      font-family: "Apolline";
     }
 
     .nav li {
@@ -26,6 +27,11 @@
       font-style: bold;
       font-size: 25px;
       text-decoration: none;
+      margin-top: 10px;
+      margin-left: 5px;
+      margin-right: 5px;
+      margin-bottom: 15px;
+
     }
 
     .footer {
@@ -40,7 +46,7 @@
 
     .logo {
       float: left;
-      width: 20%;
+      width: 85%;
     }
 
     .center {
@@ -70,6 +76,7 @@ nav ul li a{
 nav .menu-btn i{
   color: #000;
   font-size: 22px;
+  font-family:"Apolline";
   display: none;
 } 
 
@@ -107,11 +114,12 @@ nav .menu-btn i{
 } 
 
 .banner.content {
-  margin-top: 130px;
+  margin-top: 60px;
+  margin-bottom: 60px;
   
 }
 .banner-bg img{
-  width: 100%;
+  width: 70%;
   border: 2px solid #000;
 }
 
@@ -120,11 +128,11 @@ nav .menu-btn i{
 }
 .text-box {
   position: absolute;
-  bottom: 3%;
+  bottom: 4%;
   background-color: #e5e0dd;
   width: 30%;
   padding: 30px;
-  left: 2%;
+  left: 17%;
   font-family: "Apolline";
   font-style: extrabold;
 }
@@ -147,6 +155,7 @@ nav .menu-btn i{
   margin-bottom: 20px;
 }
 .main-bg {
+  margin-bottom:30px;
   background-color: #d8d8d8;
   padding: 30px;
 }
@@ -192,30 +201,68 @@ nav .menu-btn i{
 .right-content {
   margin-top: 15px;
   margin-left: 10px;
+  margin-bottom: 30px;
 }
 .right-content a {
   text-decoration: none;
 }
 
-.footer-left-area img {
-  width: 100%;
+
+.serviceimg img {
+  margin-bottom: 20px;
+}
+
+.sidebyside img {
+  width: 40%;
+  border: 2px solid #000;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin right
+}
+
+.background {
+  width: 1440px;
   height: auto;
+
+  margin-bottom:30px;
+  background-color: #d8d8d8;
+  padding: 30px;
 }
-.footer-right-area {
-  text-align: right;
-  padding: 23px
+.centerleft{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  color: whitesmoke;
 }
-.footer-right-area li {
-  list-style: none;
-  display: inline-flex;
-  padding: 20px;
+
+
+.centerright{
+  position: absolute;
+  top: 50%;
+  right: 30%;
+  color: whitesmoke;
 }
-.footer-right-area li a {
-  text-decoration: none;
-  color: black;
-  font-style: bold;
-  font-size: 20px;
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 2px solid black; 
+  border-radius: 4px; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
 }
+
+input[type=submit] {
+  background-color: royalblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
 
 
 
